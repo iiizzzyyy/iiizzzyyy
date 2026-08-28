@@ -10,6 +10,8 @@ My focus: agents that touch production CRM data need safety rails, not vibes. Ev
 
 **[hubspot-mcp](https://github.com/promptmetrics/hubspot-mcp)** — Standalone MCP server for HubSpot. 76 domain tools plus 5 safety tools (approve, reject, pending, audit, undo). Built for clients that can't run Claude Code plugins.
 
+**[whoop-relay](https://github.com/promptmetrics/whoop-relay)** — Multi-user MCP server on Cloudflare Workers that connects WHOOP accounts to Claude (claude.ai, Desktop, Code, Cowork). Webhooks land in a queue, a consumer resolves the data within WHOOP's rate limits into D1, and the server answers "how did I sleep, should I push today?" instantly — no API quota burned per question. Ships an interactive dashboard rendered inside the chat (MCP Apps) plus an authenticated live dashboard on the web.
+
 **[promptmetrics](https://github.com/iiizzzyyy/promptmetrics)** — Lightweight, self-hosted prompt registry. GitHub-backed versioning and metadata logging for LLM observability.
 
 **[clawlens](https://github.com/iiizzzyyy/clawlens)** — Investigation layer for OpenClaw. Answers the question "why did my agent do that?"
