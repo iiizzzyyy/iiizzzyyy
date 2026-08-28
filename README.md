@@ -24,6 +24,6 @@ Approval friction should match risk. Reads are free. Single writes get a preview
 
 - Website: [promptmetrics.dev](https://www.promptmetrics.dev)
 - X: [@iiizzy](https://x.com/iiizzy)
-- Community: Operator Stack on Skool, for RevOps and CS people running 3+ tools
+- Community: [Operator Stack](https://operator.promptmetrics.dev/), for RevOps and CS people running 3+ tools
 
 Tell me where I'm wrong. Issues and PRs welcome.
